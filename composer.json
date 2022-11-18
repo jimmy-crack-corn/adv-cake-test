@@ -1,0 +1,15 @@
+{
+  "name": "test/task",
+  "type": "project",
+  "description": "Test task for vacancy",
+  "autoload": {
+    "psr-4": {
+      "web\\": "web",
+      "app\\": "",
+      "helpers\\": "app/helpers"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
